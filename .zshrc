@@ -3,7 +3,6 @@
 # http://www.machu.jp/b/ZshRc.html
 ##################
 
-
 ######## pass #########
 
 export PATH=/usr/local/bin
@@ -83,8 +82,6 @@ bindkey     " "         my-expand-abbrev
 autoload -U url-quote-magic
 zle -N self-insert url-quote-magic
 
-
-
 ######## User specific aliases and functions #########
 
 alias ls='ls -F'
@@ -95,12 +92,9 @@ alias -g G=' | grep '
 alias gd='dirs -v; echo -n "select number: "; read newdir; cd -"$newdir"'
 alias less='less -N'
 alias q='exit'
-#alias screen='screen -U -T $TERM'
 alias screen='screen -U'
 alias rm='rm -i'
 alias f='open .'
-
-#alias java="java -Duser.language=en -Dfile.encoding=UTF-8"
 
 setopt PROMPT_SUBST
 setopt share_history
@@ -135,7 +129,6 @@ zstyle ':completion:*' list-colors di=34 fi=0
 #補完リストに8ビットコードを使う
 # setopt PRINT_EIGHT_BIT
 
-
 ######## ENV #########
 
 #export PAGER='lv -c'
@@ -143,11 +136,6 @@ zstyle ':completion:*' list-colors di=34 fi=0
 #export LC_ALL=UTF-8
 export LANG=ja_JP.UTF-8
 export TERM='xterm-color'
-
-######## CVS #########
-#export CVSROOT=:ext:kasahi@cvs.dev.yahoo.co.jp:/CVSROOT
-#export CVS_RSH=ssh
-#export CVSEDITOR=vim
 
 ######## Change the window title of X terminals #########
 

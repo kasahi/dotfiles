@@ -40,7 +40,6 @@ autocmd BufNewFile,BufRead *.mxml set filetype=mxml
 set showmatch
 set showmode
 
-
 " -------------------
 " Japanese Settings
 " -------------------
@@ -49,7 +48,6 @@ set termencoding=utf-8
 set fileencodings=utf-8,euc-jp,iso-2022-jp,cp932
 set fenc=utf-8
 set enc=utf-8
-
 
 " -------------------
 " Search
@@ -86,10 +84,8 @@ set laststatus=2
 set wildmode=full:list
 set visualbell t_vb=
 
-
 "set statusline=%f:<l.%l:c.%c%V>
 set statusline=%F\:%l.%c%=%{GetStatusEx()}%m%r%y\
-
 
 " -------------------
 " Key Map
@@ -111,7 +107,6 @@ nmap <c-e><c-e> :Explore<cr>
 nmap <c-e><c-b> :BufExplore<cr>
 nmap <c-W>N :vnew<cr>
 let g:explUseSeparators=1
-
 
 map <F1> <ESC>:bd<CR>
 map <F2> <ESC>:bp<CR>
