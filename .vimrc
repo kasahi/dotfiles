@@ -1,4 +1,3 @@
-
 " vimrc
 " Tab/Indent
 " -------------------
@@ -18,7 +17,6 @@ set autoindent
 
 set swapfile
 set directory=$HOME/backup/vim/swp
-
 
 " -------------------
 " Syntax Highlight
